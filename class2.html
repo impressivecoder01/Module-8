@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Complex Flexbox And Grid Media Query</title>
+    <style>
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .row{
+            
+            height: 200px;
+
+        }
+        .second-row{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+        }
+        .second2-row{
+            display: grid;
+            row-gap: 5px;
+            margin: 5px 0;
+        }
+        .third-row{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 5px;
+        }
+        .third-style{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My responsive image website</h1>
+    <div class="row">
+    
+
+            <img src="./images/A.jpg" alt="error">
+    </div>
+    <div class="second-row">
+        <img src="./images/B.jpg" alt="error">
+        <img src="./images/C.jpg" alt="error">
+        <div class="second2-row">
+
+            <img src="./images/D.jpg" alt="error">
+            <img src="./images/D.jpg" alt="error">
+        </div>
+    </div>
+    <div class="third-row">
+        <div>
+            <img src="./images/E.jpg" alt="">
+        </div>
+        <div class="third-style">
+            <img src="./images/F.jpg" alt="">
+            <img src="./images/F.jpg" alt="">
+            <img src="./images/F.jpg" alt="">
+            <img src="./images/F.jpg" alt="">
+
+        </div>
+        <div>
+            <img src="./images/G.jpg" alt="">
+        </div>
+
+    </div>
+</body>
+</html>
