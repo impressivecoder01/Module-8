@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header, .nav, .main , .sidebar, .advertise, .footer{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.header{
+    
+}
