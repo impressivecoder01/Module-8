@@ -20,3 +20,27 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .vertical-collage img{
+        height: 100%;
+    }
+    .square-collage{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .vertical-collage img{
+        height: auto;
+    }
+    
+}
