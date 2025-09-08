@@ -10,6 +10,25 @@ li{
     padding: 5px;
     margin: 5px;
 }
-.header{
-    
-}
+/* .header{
+
+} */
+ body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+ .header{
+    grid-column: span 3;
+ }
+ .nav{
+    grid-row: span 2;
+ }
+ .main{
+    grid-row: span 3;
+ }
+ .sidebar{
+    grid-row: span 1;
+ }
+ .advertise{
+    grid-row: span ;
+ }
