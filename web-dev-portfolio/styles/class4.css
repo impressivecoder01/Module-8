@@ -15,7 +15,7 @@ li{
 } */
  body{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
  }
  .header{
     grid-column: span 3;
@@ -27,8 +27,11 @@ li{
     grid-row: span 3;
  }
  .sidebar{
-    grid-row: span 1;
+    grid-row: span 2;
  }
  .advertise{
-    grid-row: span ;
+    grid-row: span 1;
+ }
+ .footer{
+   grid-column: span 3;
  }
